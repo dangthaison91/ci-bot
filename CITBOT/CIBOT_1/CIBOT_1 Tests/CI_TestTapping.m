@@ -35,20 +35,20 @@
     [tester tapViewWithAccessibilityLabel:@"btnClear"];
 
     UITextField *text = (UITextField*)[tester waitForViewWithAccessibilityLabel:@"inputText"];
-    XCTAssertTrue(![text.text isEqualToString:@"1"], @"FAIL");
+    XCTAssertTrue(![text.text isEqualToString:@""], @"FAIL");
 
 }
-//- (void)testAlert {
-//    [tester tapViewWithAccessibilityLabel:@"btnShowAlert"];
-//    [tester waitForViewWithAccessibilityLabel:@"Successful"];
-//    [tester tapViewWithAccessibilityLabel:@"YES"];
-//
-//    [tester waitForAbsenceOfViewWithAccessibilityLabel:@"Successful"];
-//    [tester waitForTimeInterval:1];
-//    [tester waitForViewWithAccessibilityLabel:@"Second Alert"];
-//    [tester waitForTimeInterval:1];
-//    [tester tapViewWithAccessibilityLabel:@"YES"];
-//}
+- (void)testAlert {
+    [tester tapViewWithAccessibilityLabel:@"btnShowAlert"];
+    [tester waitForViewWithAccessibilityLabel:@"Successful"];
+    [tester tapViewWithAccessibilityLabel:@"YES"];
+
+    [tester waitForAbsenceOfViewWithAccessibilityLabel:@"Successful"];
+    [tester waitForTimeInterval:1];
+    [tester waitForViewWithAccessibilityLabel:@"Second Alert"];
+    [tester waitForTimeInterval:1];
+    [tester tapViewWithAccessibilityLabel:@"YES"];
+}
 //// Test Slider
 - (void)testSlider {
     [tester setValue:1.5 forSliderWithAccessibilityLabel:@"imageSlider"];
