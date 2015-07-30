@@ -49,7 +49,7 @@
     [tester waitForTimeInterval:1];
     [tester tapViewWithAccessibilityLabel:@"YES"];
 }
-////
+//// Test Slider
 - (void)testSlider {
     [tester setValue:1.5 forSliderWithAccessibilityLabel:@"imageSlider"];
     [tester waitForTimeInterval:1.0];
