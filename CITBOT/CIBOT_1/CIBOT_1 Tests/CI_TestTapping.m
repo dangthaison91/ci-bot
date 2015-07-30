@@ -35,7 +35,7 @@
     [tester tapViewWithAccessibilityLabel:@"btnClear"];
 
     UITextField *text = (UITextField*)[tester waitForViewWithAccessibilityLabel:@"inputText"];
-    XCTAssertTrue(![text.text isEqualToString:@"123"], @"FAIL");
+    XCTAssertTrue(![text.text isEqualToString:@"12"], @"FAIL");
 
 }
 //- (void)testAlert {
