@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1DA5A93F-2118-4EF7-A6BC-17B697A2FE07</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CIBOT_1</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>ecab115c-ace9-11e4-a249-eda98470a359</key>
+		<string>svn://son.dt@192.168.1.109/CITBOT</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CIBOT_1/CIBOT_1.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>ecab115c-ace9-11e4-a249-eda98470a359</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>ecab115c-ace9-11e4-a249-eda98470a359</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ecab115c-ace9-11e4-a249-eda98470a359</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CITBOT</string>
+		</dict>
+	</array>
+</dict>
+</plist>

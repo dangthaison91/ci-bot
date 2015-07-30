@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0600"
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "579348B41A832CF700FD8DDC"
+               BuildableName = "CIBOT_1.app"
+               BlueprintName = "CIBOT_1"
+               ReferencedContainer = "container:CIBOT_1.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "579348CD1A832CF700FD8DDC"
+               BuildableName = "CIBOT_1Tests.xctest"
+               BlueprintName = "CIBOT_1Tests"
+               ReferencedContainer = "container:CIBOT_1.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5711CA171A83D36500C32A7C"
+               BuildableName = "KIFTest.xctest"
+               BlueprintName = "KIFTest"
+               ReferencedContainer = "container:CIBOT_1.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5798F62D1B138B4700750CB3"
+               BuildableName = "CIBOT_1 Tests.xctest"
+               BlueprintName = "CIBOT_1 Tests"
+               ReferencedContainer = "container:CIBOT_1.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5711CA171A83D36500C32A7C"
+               BuildableName = "KIFTest.xctest"
+               BlueprintName = "KIFTest"
+               ReferencedContainer = "container:CIBOT_1.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "5798F62D1B138B4700750CB3"
+               BuildableName = "CIBOT_1 Tests.xctest"
+               BlueprintName = "CIBOT_1 Tests"
+               ReferencedContainer = "container:CIBOT_1.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "579348B41A832CF700FD8DDC"
+            BuildableName = "CIBOT_1.app"
+            BlueprintName = "CIBOT_1"
+            ReferencedContainer = "container:CIBOT_1.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "579348B41A832CF700FD8DDC"
+            BuildableName = "CIBOT_1.app"
+            BlueprintName = "CIBOT_1"
+            ReferencedContainer = "container:CIBOT_1.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "579348B41A832CF700FD8DDC"
+            BuildableName = "CIBOT_1.app"
+            BlueprintName = "CIBOT_1"
+            ReferencedContainer = "container:CIBOT_1.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+      <PostActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "&#10;API_TOKEN=&quot;4edc0b9f2bf119fa13341aaf117ee134_MjM1NzcyMDIwMTUtMDItMDggMTE6NDI6MTYuNTAwNDk1&quot;&#10;&#10;TEAM_TOKEN=&quot;ae1454cc1fdfc243b3e220c084942e9d_NDg3NzQxMjAxNS0wMi0wOCAxMTo0NToyOS43MjM1NTg&quot;&#10;&#10;DISTRIBUTION_LISTS=&quot;CIBOT TEST&quot;&#10;&#10;#PROVISIONING_PROFILE=&quot;/Library/Developer/XcodeServer/ProvisioningProfiles/All.mobileprovision&quot;&#10;&#10;#SIGNING_IDENTITY=&quot;iPhone Distribution: Hoang Duc Thinh (XD9ALJD5P6)&quot;&#10;# EXAMPLE: &quot;iPhone Distribution: Company, Inc.&quot;&#10;&#10;# DO NOT EDIT BELOW HERE!&#10;########################################&#10;upload() {&#10;    BASE_PATH=&quot;/Library/Developer/XcodeServer/IntegrationAssets/&quot;&#10;    IPA=&quot;${BASE_PATH}${XCS_BOT_ID}-${XCS_BOT_NAME}/${XCS_INTEGRATION_NUMBER}/${XCS_BOT_NAME}.ipa&quot;&#10;    ARCHIVE=&quot;${BASE_PATH}${XCS_BOT_ID}-${XCS_BOT_NAME}/${XCS_INTEGRATION_NUMBER}/Archive.xcarchive.zip&quot;&#10;    DSYM_ZIP=&quot;/tmp/dSYM.zip&quot;&#10;    &#10;    # Remove old files &apos;n folders&#10;    rm /tmp/tflog&#10;    rm /tmp/tfupload&#10;    rm /tmp/tfuploadout&#10;    rm -rf /tmp/Archive.xcarchive&#10;    rm &quot;${DSYM_ZIP}&quot;&#10;    &#10;    TIMEOUT=120&#10;    until [ -e &quot;${IPA}&quot; ]; do&#10;    echo &quot;Waiting for ${IPA} to exist&quot; &gt;&gt; /tmp/tflog&#10;    &#10;    if [ $TIMEOUT -eq 0 ]&#10;    then&#10;    echo &quot;Giving up on ${IPA} existence&quot; &gt;&gt; /tmp/tflog&#10;    exit&#10;    else&#10;    TIMEOUT=`expr $TIMEOUT - 1`&#10;    fi&#10;    &#10;    sleep 1&#10;    done&#10;    &#10;    # Unzip Archive to get at the juicy dSYM files&#10;    echo &quot;Unpacking ${ARCHIVE} to /tmp/Archive.xcarchive&quot; &gt;&gt; /tmp/tflog&#10;    unzip &quot;${ARCHIVE}&quot; -d /tmp &gt;&gt; /tmp/tflog&#10;    &#10;    # Zip the aforementioned juicy dSYM files up for TestFlight&#10;    echo &quot;Packing dSYM(s) as ${DSYM_ZIP}&quot; &gt;&gt; /tmp/tflog&#10;    pushd /tmp/Archive.xcarchive/dSYMs&#10;    # Multiple dSYM files are not supported by TestFlight at this time. Just uploading the main one for now.&#10;    #zip -r &quot;${DSYM_ZIP}&quot; * &gt;&gt; /tmp/tflog&#10;    zip -r &quot;${DSYM_ZIP}&quot; &quot;${DWARF_DSYM_FILE_NAME}&quot;&#10;    popd&#10;    &#10;    # Get the SCM log&#10;    SCM_LOG=$(grep &quot;\s\s\s\s\s\s\s&quot; ${BASE_PATH}${XCS_BOT_ID}-${XCS_BOT_NAME}/${XCS_INTEGRATION_NUMBER}/sourceControl.log | sed &apos;s/          //g&apos;)&#10;    &#10;    # Upload to TestFlight&#10;    echo &quot;Uploading to TestFlight&quot; &gt;&gt; /tmp/tflog&#10;    /usr/bin/curl -vs &quot;http://testflightapp.com/api/builds.json&quot; \&#10;    -F file=@&quot;${IPA}&quot; \&#10;    -F dsym=@&quot;${DSYM_ZIP}&quot; \&#10;    -F api_token=&quot;${API_TOKEN}&quot; \&#10;    -F team_token=&quot;${TEAM_TOKEN}&quot; \&#10;    -F distribution_lists=&quot;${DISTRIBUTION_LISTS}&quot; \&#10;    -F notes=&quot;${SCM_LOG}\n\nBuild uploaded automatically from Xcode Server Bot.&quot;  --stderr /tmp/tfupload -o /tmp/tfuploadout&#10;    &#10;    # Clean up after ourselves before we leave&#10;    rm -rf /tmp/Archive.xcarchive&#10;    rm &quot;${DSYM_ZIP}&quot;&#10;}&#10;&#10;echo &quot;Starting TestFlight Upload, check /tmp/tflog for status&quot;;&#10;&#10;upload &amp;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "579348B41A832CF700FD8DDC"
+                     BuildableName = "CIBOT_1.app"
+                     BlueprintName = "CIBOT_1"
+                     ReferencedContainer = "container:CIBOT_1.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PostActions>
+   </ArchiveAction>
+</Scheme>

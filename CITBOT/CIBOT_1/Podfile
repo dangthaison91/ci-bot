@@ -1,0 +1,4 @@
+
+target 'CIBOT_1 Tests', :exclusive => true do
+  pod 'KIF', '~> 3.0', :configurations => ['Debug']
+end

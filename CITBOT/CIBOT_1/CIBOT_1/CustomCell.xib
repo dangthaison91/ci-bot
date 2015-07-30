@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="CustomCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZJy-w4-1Dy">
+                        <rect key="frame" x="10" y="10" width="148" height="23"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPi-Lt-DJA">
+                        <rect key="frame" x="238" y="-10.5" width="64" height="64.5"/>
+                        <accessibility key="accessibilityConfiguration" label="callButton"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="64" id="PyZ-4L-DXJ"/>
+                            <constraint firstAttribute="height" constant="64" id="lQG-qD-qKH"/>
+                        </constraints>
+                        <state key="normal" backgroundImage="call.png">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="bPi-Lt-DJA" firstAttribute="leading" secondItem="ZJy-w4-1Dy" secondAttribute="trailing" constant="80" id="5AW-Cv-SII"/>
+                    <constraint firstItem="ZJy-w4-1Dy" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="2" id="5Xi-Md-RHO"/>
+                    <constraint firstItem="ZJy-w4-1Dy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="2" id="D1v-13-MZb"/>
+                    <constraint firstAttribute="centerY" secondItem="bPi-Lt-DJA" secondAttribute="centerY" id="LLd-VI-nSL"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="ZJy-w4-1Dy" secondAttribute="bottom" constant="2" id="ScE-yA-qbg"/>
+                    <constraint firstItem="bPi-Lt-DJA" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" constant="-10" id="giy-k8-7fU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cellCall" destination="bPi-Lt-DJA" id="NGd-3A-IGT"/>
+                <outlet property="cellImage" destination="ZJy-w4-1Dy" id="vb2-pw-xAo"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="call.png" width="512" height="512"/>
+    </resources>
+</document>

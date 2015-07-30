@@ -1,0 +1,905 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5711CA271A83D3A400C32A7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5711CA261A83D3A400C32A7C /* CoreGraphics.framework */; };
+		5711CA331A83D8EB00C32A7C /* TestTapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 5711CA321A83D8EB00C32A7C /* TestTapping.m */; };
+		5711CA361A83DD0200C32A7C /* KIFTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5711CA351A83DD0200C32A7C /* KIFTest.m */; };
+		5753F34F1A862B2B0073952C /* TestTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5753F34E1A862B2B0073952C /* TestTableView.m */; };
+		577E7D5E1B13870F0008BEE9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5711CA261A83D3A400C32A7C /* CoreGraphics.framework */; };
+		5786E30C1B138C2400C40638 /* CI_TestTapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 5786E30B1B138C2400C40638 /* CI_TestTapping.m */; };
+		5786E30F1B138D3200C40638 /* CI_TestTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 5786E30E1B138D3200C40638 /* CI_TestTable.m */; };
+		5786E3121B138E3E00C40638 /* CI_TestGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 5786E3111B138E3E00C40638 /* CI_TestGesture.m */; };
+		579348BB1A832CF700FD8DDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 579348BA1A832CF700FD8DDC /* main.m */; };
+		579348BE1A832CF700FD8DDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 579348BD1A832CF700FD8DDC /* AppDelegate.m */; };
+		579348C11A832CF700FD8DDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 579348C01A832CF700FD8DDC /* ViewController.m */; };
+		579348C41A832CF700FD8DDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579348C21A832CF700FD8DDC /* Main.storyboard */; };
+		579348C61A832CF700FD8DDC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579348C51A832CF700FD8DDC /* Images.xcassets */; };
+		579348C91A832CF700FD8DDC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 579348C71A832CF700FD8DDC /* LaunchScreen.xib */; };
+		579348D51A832CF700FD8DDC /* CIBOT_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 579348D41A832CF700FD8DDC /* CIBOT_1Tests.m */; };
+		579717481A87E7F9008A430E /* TestGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 579717471A87E7F9008A430E /* TestGesture.m */; };
+		5798F6331B138B4700750CB3 /* CIBOT_1_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5798F6321B138B4700750CB3 /* CIBOT_1_Tests.m */; };
+		57C970261A87ABED00AD9696 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C970241A87ABED00AD9696 /* CustomCell.m */; };
+		57C970271A87ABED00AD9696 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57C970251A87ABED00AD9696 /* CustomCell.xib */; };
+		57C9702F1A87AE5E00AD9696 /* mai phuong thuy 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57C9702E1A87AE5E00AD9696 /* mai phuong thuy 1.jpg */; };
+		57C970311A87AFC300AD9696 /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = 57C970301A87AFC300AD9696 /* call.png */; };
+		57C970381A87B11300AD9696 /* linh chi 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57C970321A87B11300AD9696 /* linh chi 1.jpg */; };
+		57C970391A87B11300AD9696 /* khanh my 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57C970331A87B11300AD9696 /* khanh my 1.jpg */; };
+		57C9703B1A87B11300AD9696 /* khanh my 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57C970351A87B11300AD9696 /* khanh my 2.jpg */; };
+		57C9703C1A87B11300AD9696 /* khanh my 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57C970361A87B11300AD9696 /* khanh my 3.jpg */; };
+		57C9703D1A87B11300AD9696 /* linh chi 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57C970371A87B11300AD9696 /* linh chi 2.jpg */; };
+		57C970401A87BAE500AD9696 /* TestTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C9703F1A87BAE500AD9696 /* TestTableView.m */; };
+		6D448B70D3E0320801187D78 /* libPods-CIBOT_1Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B02C03734762C07DDE0BB48 /* libPods-CIBOT_1Tests.a */; };
+		EA36FFED4FA6D55FDBAFA11D /* libPods-CIBOT_1 Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CEF425AE0A2544BCC86C3B7 /* libPods-CIBOT_1 Tests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5711CA1E1A83D36500C32A7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 579348AD1A832CF700FD8DDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 579348B41A832CF700FD8DDC;
+			remoteInfo = CIBOT_1;
+		};
+		579348CF1A832CF700FD8DDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 579348AD1A832CF700FD8DDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 579348B41A832CF700FD8DDC;
+			remoteInfo = CIBOT_1;
+		};
+		5798F6341B138B4700750CB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 579348AD1A832CF700FD8DDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 579348B41A832CF700FD8DDC;
+			remoteInfo = CIBOT_1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A16C7E735446281138CC381 /* Pods-CIBOT_1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CIBOT_1Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CIBOT_1Tests/Pods-CIBOT_1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E2D769A62F3B8E0429FE554 /* Pods-CIBOT_1 Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CIBOT_1 Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CIBOT_1 Tests/Pods-CIBOT_1 Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B02C03734762C07DDE0BB48 /* libPods-CIBOT_1Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CIBOT_1Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5711CA181A83D36500C32A7C /* KIFTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KIFTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5711CA1B1A83D36500C32A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5711CA261A83D3A400C32A7C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5711CA321A83D8EB00C32A7C /* TestTapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTapping.m; sourceTree = "<group>"; };
+		5711CA341A83DD0200C32A7C /* KIFTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIFTest.h; sourceTree = "<group>"; };
+		5711CA351A83DD0200C32A7C /* KIFTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIFTest.m; sourceTree = "<group>"; };
+		5753F34D1A862B2B0073952C /* TestTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableView.h; sourceTree = "<group>"; };
+		5753F34E1A862B2B0073952C /* TestTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableView.m; sourceTree = "<group>"; };
+		5786E30A1B138C2400C40638 /* CI_TestTapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CI_TestTapping.h; sourceTree = "<group>"; };
+		5786E30B1B138C2400C40638 /* CI_TestTapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CI_TestTapping.m; sourceTree = "<group>"; };
+		5786E30D1B138D3200C40638 /* CI_TestTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CI_TestTable.h; sourceTree = "<group>"; };
+		5786E30E1B138D3200C40638 /* CI_TestTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CI_TestTable.m; sourceTree = "<group>"; };
+		5786E3101B138E3E00C40638 /* CI_TestGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CI_TestGesture.h; sourceTree = "<group>"; };
+		5786E3111B138E3E00C40638 /* CI_TestGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CI_TestGesture.m; sourceTree = "<group>"; };
+		579348B51A832CF700FD8DDC /* CIBOT_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CIBOT_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		579348B91A832CF700FD8DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		579348BA1A832CF700FD8DDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		579348BC1A832CF700FD8DDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		579348BD1A832CF700FD8DDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		579348BF1A832CF700FD8DDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		579348C01A832CF700FD8DDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		579348C31A832CF700FD8DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		579348C51A832CF700FD8DDC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		579348C81A832CF700FD8DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		579348CE1A832CF700FD8DDC /* CIBOT_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CIBOT_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		579348D31A832CF700FD8DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		579348D41A832CF700FD8DDC /* CIBOT_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIBOT_1Tests.m; sourceTree = "<group>"; };
+		579717461A87E7F9008A430E /* TestGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestGesture.h; sourceTree = "<group>"; };
+		579717471A87E7F9008A430E /* TestGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGesture.m; sourceTree = "<group>"; };
+		5798F62E1B138B4700750CB3 /* CIBOT_1 Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CIBOT_1 Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5798F6311B138B4700750CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5798F6321B138B4700750CB3 /* CIBOT_1_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIBOT_1_Tests.m; sourceTree = "<group>"; };
+		57C970231A87ABED00AD9696 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		57C970241A87ABED00AD9696 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		57C970251A87ABED00AD9696 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		57C9702E1A87AE5E00AD9696 /* mai phuong thuy 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mai phuong thuy 1.jpg"; sourceTree = "<group>"; };
+		57C970301A87AFC300AD9696 /* call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call.png; sourceTree = "<group>"; };
+		57C970321A87B11300AD9696 /* linh chi 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "linh chi 1.jpg"; sourceTree = "<group>"; };
+		57C970331A87B11300AD9696 /* khanh my 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "khanh my 1.jpg"; sourceTree = "<group>"; };
+		57C970351A87B11300AD9696 /* khanh my 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "khanh my 2.jpg"; sourceTree = "<group>"; };
+		57C970361A87B11300AD9696 /* khanh my 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "khanh my 3.jpg"; sourceTree = "<group>"; };
+		57C970371A87B11300AD9696 /* linh chi 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "linh chi 2.jpg"; sourceTree = "<group>"; };
+		57C9703E1A87BAE500AD9696 /* TestTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableView.h; sourceTree = "<group>"; };
+		57C9703F1A87BAE500AD9696 /* TestTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableView.m; sourceTree = "<group>"; };
+		84472974A21A951F3EA8C1B7 /* Pods-CIBOT_1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CIBOT_1Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CIBOT_1Tests/Pods-CIBOT_1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8CEF425AE0A2544BCC86C3B7 /* libPods-CIBOT_1 Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CIBOT_1 Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD478C42F2125F513350F4A /* Pods-CIBOT_1 Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CIBOT_1 Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CIBOT_1 Tests/Pods-CIBOT_1 Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5711CA151A83D36500C32A7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5711CA271A83D3A400C32A7C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579348B21A832CF700FD8DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579348CB1A832CF700FD8DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577E7D5E1B13870F0008BEE9 /* CoreGraphics.framework in Frameworks */,
+				6D448B70D3E0320801187D78 /* libPods-CIBOT_1Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5798F62B1B138B4700750CB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA36FFED4FA6D55FDBAFA11D /* libPods-CIBOT_1 Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54B09E7D16BB05C1F533319B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B02C03734762C07DDE0BB48 /* libPods-CIBOT_1Tests.a */,
+				8CEF425AE0A2544BCC86C3B7 /* libPods-CIBOT_1 Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5711CA191A83D36500C32A7C /* KIFTest */ = {
+			isa = PBXGroup;
+			children = (
+				5711CA341A83DD0200C32A7C /* KIFTest.h */,
+				5711CA351A83DD0200C32A7C /* KIFTest.m */,
+				5711CA321A83D8EB00C32A7C /* TestTapping.m */,
+				579717461A87E7F9008A430E /* TestGesture.h */,
+				579717471A87E7F9008A430E /* TestGesture.m */,
+				57C9703E1A87BAE500AD9696 /* TestTableView.h */,
+				57C9703F1A87BAE500AD9696 /* TestTableView.m */,
+				5711CA1A1A83D36500C32A7C /* Supporting Files */,
+			);
+			path = KIFTest;
+			sourceTree = "<group>";
+		};
+		5711CA1A1A83D36500C32A7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5711CA1B1A83D36500C32A7C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		579348AC1A832CF700FD8DDC = {
+			isa = PBXGroup;
+			children = (
+				5711CA261A83D3A400C32A7C /* CoreGraphics.framework */,
+				579348B71A832CF700FD8DDC /* CIBOT_1 */,
+				579348D11A832CF700FD8DDC /* CIBOT_1Tests */,
+				5711CA191A83D36500C32A7C /* KIFTest */,
+				5798F62F1B138B4700750CB3 /* CIBOT_1 Tests */,
+				579348B61A832CF700FD8DDC /* Products */,
+				D8036122C7531A4388DC64FC /* Pods */,
+				54B09E7D16BB05C1F533319B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		579348B61A832CF700FD8DDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				579348B51A832CF700FD8DDC /* CIBOT_1.app */,
+				579348CE1A832CF700FD8DDC /* CIBOT_1Tests.xctest */,
+				5711CA181A83D36500C32A7C /* KIFTest.xctest */,
+				5798F62E1B138B4700750CB3 /* CIBOT_1 Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		579348B71A832CF700FD8DDC /* CIBOT_1 */ = {
+			isa = PBXGroup;
+			children = (
+				57C970321A87B11300AD9696 /* linh chi 1.jpg */,
+				57C970331A87B11300AD9696 /* khanh my 1.jpg */,
+				57C970351A87B11300AD9696 /* khanh my 2.jpg */,
+				57C970361A87B11300AD9696 /* khanh my 3.jpg */,
+				57C970371A87B11300AD9696 /* linh chi 2.jpg */,
+				57C970301A87AFC300AD9696 /* call.png */,
+				57C9702E1A87AE5E00AD9696 /* mai phuong thuy 1.jpg */,
+				5753F34D1A862B2B0073952C /* TestTableView.h */,
+				5753F34E1A862B2B0073952C /* TestTableView.m */,
+				579348BC1A832CF700FD8DDC /* AppDelegate.h */,
+				579348BD1A832CF700FD8DDC /* AppDelegate.m */,
+				579348BF1A832CF700FD8DDC /* ViewController.h */,
+				579348C01A832CF700FD8DDC /* ViewController.m */,
+				579348C21A832CF700FD8DDC /* Main.storyboard */,
+				579348C51A832CF700FD8DDC /* Images.xcassets */,
+				579348C71A832CF700FD8DDC /* LaunchScreen.xib */,
+				579348B81A832CF700FD8DDC /* Supporting Files */,
+				57C970231A87ABED00AD9696 /* CustomCell.h */,
+				57C970241A87ABED00AD9696 /* CustomCell.m */,
+				57C970251A87ABED00AD9696 /* CustomCell.xib */,
+			);
+			path = CIBOT_1;
+			sourceTree = "<group>";
+		};
+		579348B81A832CF700FD8DDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				579348B91A832CF700FD8DDC /* Info.plist */,
+				579348BA1A832CF700FD8DDC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		579348D11A832CF700FD8DDC /* CIBOT_1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				579348D41A832CF700FD8DDC /* CIBOT_1Tests.m */,
+				579348D21A832CF700FD8DDC /* Supporting Files */,
+			);
+			path = CIBOT_1Tests;
+			sourceTree = "<group>";
+		};
+		579348D21A832CF700FD8DDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				579348D31A832CF700FD8DDC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5798F62F1B138B4700750CB3 /* CIBOT_1 Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5798F6321B138B4700750CB3 /* CIBOT_1_Tests.m */,
+				5798F6301B138B4700750CB3 /* Supporting Files */,
+				5786E30A1B138C2400C40638 /* CI_TestTapping.h */,
+				5786E30B1B138C2400C40638 /* CI_TestTapping.m */,
+				5786E30D1B138D3200C40638 /* CI_TestTable.h */,
+				5786E30E1B138D3200C40638 /* CI_TestTable.m */,
+				5786E3101B138E3E00C40638 /* CI_TestGesture.h */,
+				5786E3111B138E3E00C40638 /* CI_TestGesture.m */,
+			);
+			path = "CIBOT_1 Tests";
+			sourceTree = "<group>";
+		};
+		5798F6301B138B4700750CB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5798F6311B138B4700750CB3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8036122C7531A4388DC64FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A16C7E735446281138CC381 /* Pods-CIBOT_1Tests.debug.xcconfig */,
+				84472974A21A951F3EA8C1B7 /* Pods-CIBOT_1Tests.release.xcconfig */,
+				1E2D769A62F3B8E0429FE554 /* Pods-CIBOT_1 Tests.debug.xcconfig */,
+				ECD478C42F2125F513350F4A /* Pods-CIBOT_1 Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5711CA171A83D36500C32A7C /* KIFTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5711CA201A83D36500C32A7C /* Build configuration list for PBXNativeTarget "KIFTest" */;
+			buildPhases = (
+				5711CA141A83D36500C32A7C /* Sources */,
+				5711CA151A83D36500C32A7C /* Frameworks */,
+				5711CA161A83D36500C32A7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5711CA1F1A83D36500C32A7C /* PBXTargetDependency */,
+			);
+			name = KIFTest;
+			productName = KIFTest;
+			productReference = 5711CA181A83D36500C32A7C /* KIFTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		579348B41A832CF700FD8DDC /* CIBOT_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 579348D81A832CF700FD8DDC /* Build configuration list for PBXNativeTarget "CIBOT_1" */;
+			buildPhases = (
+				579348B11A832CF700FD8DDC /* Sources */,
+				579348B21A832CF700FD8DDC /* Frameworks */,
+				579348B31A832CF700FD8DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CIBOT_1;
+			productName = CIBOT_1;
+			productReference = 579348B51A832CF700FD8DDC /* CIBOT_1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		579348CD1A832CF700FD8DDC /* CIBOT_1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 579348DB1A832CF700FD8DDC /* Build configuration list for PBXNativeTarget "CIBOT_1Tests" */;
+			buildPhases = (
+				110A7502B08EFA7F72B4AEB8 /* Check Pods Manifest.lock */,
+				579348CA1A832CF700FD8DDC /* Sources */,
+				579348CB1A832CF700FD8DDC /* Frameworks */,
+				579348CC1A832CF700FD8DDC /* Resources */,
+				2700B552B2BA8422ED326E4E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				579348D01A832CF700FD8DDC /* PBXTargetDependency */,
+			);
+			name = CIBOT_1Tests;
+			productName = CIBOT_1Tests;
+			productReference = 579348CE1A832CF700FD8DDC /* CIBOT_1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5798F62D1B138B4700750CB3 /* CIBOT_1 Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5798F6361B138B4700750CB3 /* Build configuration list for PBXNativeTarget "CIBOT_1 Tests" */;
+			buildPhases = (
+				F898605DC822BAD783E39AD2 /* Check Pods Manifest.lock */,
+				5798F62A1B138B4700750CB3 /* Sources */,
+				5798F62B1B138B4700750CB3 /* Frameworks */,
+				5798F62C1B138B4700750CB3 /* Resources */,
+				249EFD34B9FB2E74883ADD13 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5798F6351B138B4700750CB3 /* PBXTargetDependency */,
+			);
+			name = "CIBOT_1 Tests";
+			productName = "CIBOT_1 Tests";
+			productReference = 5798F62E1B138B4700750CB3 /* CIBOT_1 Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		579348AD1A832CF700FD8DDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = sondt;
+				TargetAttributes = {
+					5711CA171A83D36500C32A7C = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 579348B41A832CF700FD8DDC;
+					};
+					579348B41A832CF700FD8DDC = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					579348CD1A832CF700FD8DDC = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 579348B41A832CF700FD8DDC;
+					};
+					5798F62D1B138B4700750CB3 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 579348B41A832CF700FD8DDC;
+					};
+				};
+			};
+			buildConfigurationList = 579348B01A832CF700FD8DDC /* Build configuration list for PBXProject "CIBOT_1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 579348AC1A832CF700FD8DDC;
+			productRefGroup = 579348B61A832CF700FD8DDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				579348B41A832CF700FD8DDC /* CIBOT_1 */,
+				579348CD1A832CF700FD8DDC /* CIBOT_1Tests */,
+				5711CA171A83D36500C32A7C /* KIFTest */,
+				5798F62D1B138B4700750CB3 /* CIBOT_1 Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5711CA161A83D36500C32A7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579348B31A832CF700FD8DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C9703D1A87B11300AD9696 /* linh chi 2.jpg in Resources */,
+				57C9703C1A87B11300AD9696 /* khanh my 3.jpg in Resources */,
+				579348C41A832CF700FD8DDC /* Main.storyboard in Resources */,
+				57C970381A87B11300AD9696 /* linh chi 1.jpg in Resources */,
+				57C970391A87B11300AD9696 /* khanh my 1.jpg in Resources */,
+				579348C91A832CF700FD8DDC /* LaunchScreen.xib in Resources */,
+				57C970311A87AFC300AD9696 /* call.png in Resources */,
+				57C970271A87ABED00AD9696 /* CustomCell.xib in Resources */,
+				579348C61A832CF700FD8DDC /* Images.xcassets in Resources */,
+				57C9702F1A87AE5E00AD9696 /* mai phuong thuy 1.jpg in Resources */,
+				57C9703B1A87B11300AD9696 /* khanh my 2.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579348CC1A832CF700FD8DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5798F62C1B138B4700750CB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		110A7502B08EFA7F72B4AEB8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		249EFD34B9FB2E74883ADD13 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CIBOT_1 Tests/Pods-CIBOT_1 Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2700B552B2BA8422ED326E4E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CIBOT_1Tests/Pods-CIBOT_1Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F898605DC822BAD783E39AD2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5711CA141A83D36500C32A7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5711CA361A83DD0200C32A7C /* KIFTest.m in Sources */,
+				5711CA331A83D8EB00C32A7C /* TestTapping.m in Sources */,
+				57C970401A87BAE500AD9696 /* TestTableView.m in Sources */,
+				579717481A87E7F9008A430E /* TestGesture.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579348B11A832CF700FD8DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579348C11A832CF700FD8DDC /* ViewController.m in Sources */,
+				5753F34F1A862B2B0073952C /* TestTableView.m in Sources */,
+				579348BE1A832CF700FD8DDC /* AppDelegate.m in Sources */,
+				579348BB1A832CF700FD8DDC /* main.m in Sources */,
+				57C970261A87ABED00AD9696 /* CustomCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579348CA1A832CF700FD8DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579348D51A832CF700FD8DDC /* CIBOT_1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5798F62A1B138B4700750CB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5786E30F1B138D3200C40638 /* CI_TestTable.m in Sources */,
+				5786E3121B138E3E00C40638 /* CI_TestGesture.m in Sources */,
+				5798F6331B138B4700750CB3 /* CIBOT_1_Tests.m in Sources */,
+				5786E30C1B138C2400C40638 /* CI_TestTapping.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5711CA1F1A83D36500C32A7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 579348B41A832CF700FD8DDC /* CIBOT_1 */;
+			targetProxy = 5711CA1E1A83D36500C32A7C /* PBXContainerItemProxy */;
+		};
+		579348D01A832CF700FD8DDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 579348B41A832CF700FD8DDC /* CIBOT_1 */;
+			targetProxy = 579348CF1A832CF700FD8DDC /* PBXContainerItemProxy */;
+		};
+		5798F6351B138B4700750CB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 579348B41A832CF700FD8DDC /* CIBOT_1 */;
+			targetProxy = 5798F6341B138B4700750CB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		579348C21A832CF700FD8DDC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				579348C31A832CF700FD8DDC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		579348C71A832CF700FD8DDC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				579348C81A832CF700FD8DDC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5711CA211A83D36500C32A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KIFTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KIF-master/build/Debug-iphoneos",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CIBOT_1.app/CIBOT_1";
+			};
+			name = Debug;
+		};
+		5711CA221A83D36500C32A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KIFTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KIF-master/build/Debug-iphoneos",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CIBOT_1.app/CIBOT_1";
+			};
+			name = Release;
+		};
+		579348D61A832CF700FD8DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		579348D71A832CF700FD8DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+		579348D91A832CF700FD8DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CIBOT_1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		579348DA1A832CF700FD8DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CIBOT_1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		579348DC1A832CF700FD8DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A16C7E735446281138CC381 /* Pods-CIBOT_1Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CIBOT_1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CIBOT_1.app/CIBOT_1";
+			};
+			name = Debug;
+		};
+		579348DD1A832CF700FD8DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84472974A21A951F3EA8C1B7 /* Pods-CIBOT_1Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CIBOT_1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CIBOT_1.app/CIBOT_1";
+			};
+			name = Release;
+		};
+		5798F6371B138B4700750CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E2D769A62F3B8E0429FE554 /* Pods-CIBOT_1 Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CIBOT_1 Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CIBOT_1.app/CIBOT_1";
+				VALID_ARCHS = "armv7 armv7s i386";
+			};
+			name = Debug;
+		};
+		5798F6381B138B4700750CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECD478C42F2125F513350F4A /* Pods-CIBOT_1 Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "CIBOT_1 Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CIBOT_1.app/CIBOT_1";
+				VALID_ARCHS = "armv7 armv7s i386";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5711CA201A83D36500C32A7C /* Build configuration list for PBXNativeTarget "KIFTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5711CA211A83D36500C32A7C /* Debug */,
+				5711CA221A83D36500C32A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		579348B01A832CF700FD8DDC /* Build configuration list for PBXProject "CIBOT_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				579348D61A832CF700FD8DDC /* Debug */,
+				579348D71A832CF700FD8DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		579348D81A832CF700FD8DDC /* Build configuration list for PBXNativeTarget "CIBOT_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				579348D91A832CF700FD8DDC /* Debug */,
+				579348DA1A832CF700FD8DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		579348DB1A832CF700FD8DDC /* Build configuration list for PBXNativeTarget "CIBOT_1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				579348DC1A832CF700FD8DDC /* Debug */,
+				579348DD1A832CF700FD8DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5798F6361B138B4700750CB3 /* Build configuration list for PBXNativeTarget "CIBOT_1 Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5798F6371B138B4700750CB3 /* Debug */,
+				5798F6381B138B4700750CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 579348AD1A832CF700FD8DDC /* Project object */;
+}
