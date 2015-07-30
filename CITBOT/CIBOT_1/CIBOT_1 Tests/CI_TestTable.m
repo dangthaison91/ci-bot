@@ -17,7 +17,6 @@
     [tester tapViewWithAccessibilityLabel:@"Back" traits:UIAccessibilityTraitButton];
 }
 - (void)testSelectFirstCell {
-    // Test tap on firt tableview cell
     [tester tapRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0] inTableViewWithAccessibilityIdentifier:@"TestTableViews"];
     [tester waitForViewWithAccessibilityLabel:@"Cell Clicked"];
 }
