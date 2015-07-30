@@ -11,7 +11,6 @@
 		5711CA331A83D8EB00C32A7C /* TestTapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 5711CA321A83D8EB00C32A7C /* TestTapping.m */; };
 		5711CA361A83DD0200C32A7C /* KIFTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5711CA351A83DD0200C32A7C /* KIFTest.m */; };
 		5753F34F1A862B2B0073952C /* TestTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5753F34E1A862B2B0073952C /* TestTableView.m */; };
-		577E7D5E1B13870F0008BEE9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5711CA261A83D3A400C32A7C /* CoreGraphics.framework */; };
 		5786E30C1B138C2400C40638 /* CI_TestTapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 5786E30B1B138C2400C40638 /* CI_TestTapping.m */; };
 		5786E30F1B138D3200C40638 /* CI_TestTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 5786E30E1B138D3200C40638 /* CI_TestTable.m */; };
 		5786E3121B138E3E00C40638 /* CI_TestGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 5786E3111B138E3E00C40638 /* CI_TestGesture.m */; };
@@ -21,7 +20,6 @@
 		579348C41A832CF700FD8DDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579348C21A832CF700FD8DDC /* Main.storyboard */; };
 		579348C61A832CF700FD8DDC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579348C51A832CF700FD8DDC /* Images.xcassets */; };
 		579348C91A832CF700FD8DDC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 579348C71A832CF700FD8DDC /* LaunchScreen.xib */; };
-		579348D51A832CF700FD8DDC /* CIBOT_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 579348D41A832CF700FD8DDC /* CIBOT_1Tests.m */; };
 		579717481A87E7F9008A430E /* TestGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 579717471A87E7F9008A430E /* TestGesture.m */; };
 		5798F6331B138B4700750CB3 /* CIBOT_1_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5798F6321B138B4700750CB3 /* CIBOT_1_Tests.m */; };
 		57C970261A87ABED00AD9696 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C970241A87ABED00AD9696 /* CustomCell.m */; };
@@ -34,19 +32,11 @@
 		57C9703C1A87B11300AD9696 /* khanh my 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57C970361A87B11300AD9696 /* khanh my 3.jpg */; };
 		57C9703D1A87B11300AD9696 /* linh chi 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57C970371A87B11300AD9696 /* linh chi 2.jpg */; };
 		57C970401A87BAE500AD9696 /* TestTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C9703F1A87BAE500AD9696 /* TestTableView.m */; };
-		6D448B70D3E0320801187D78 /* libPods-CIBOT_1Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B02C03734762C07DDE0BB48 /* libPods-CIBOT_1Tests.a */; };
 		EA36FFED4FA6D55FDBAFA11D /* libPods-CIBOT_1 Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CEF425AE0A2544BCC86C3B7 /* libPods-CIBOT_1 Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		5711CA1E1A83D36500C32A7C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 579348AD1A832CF700FD8DDC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 579348B41A832CF700FD8DDC;
-			remoteInfo = CIBOT_1;
-		};
-		579348CF1A832CF700FD8DDC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 579348AD1A832CF700FD8DDC /* Project object */;
 			proxyType = 1;
@@ -90,7 +80,6 @@
 		579348C31A832CF700FD8DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		579348C51A832CF700FD8DDC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		579348C81A832CF700FD8DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		579348CE1A832CF700FD8DDC /* CIBOT_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CIBOT_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		579348D31A832CF700FD8DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		579348D41A832CF700FD8DDC /* CIBOT_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIBOT_1Tests.m; sourceTree = "<group>"; };
 		579717461A87E7F9008A430E /* TestGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestGesture.h; sourceTree = "<group>"; };
@@ -128,15 +117,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		579348CB1A832CF700FD8DDC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				577E7D5E1B13870F0008BEE9 /* CoreGraphics.framework in Frameworks */,
-				6D448B70D3E0320801187D78 /* libPods-CIBOT_1Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +181,6 @@
 			isa = PBXGroup;
 			children = (
 				579348B51A832CF700FD8DDC /* CIBOT_1.app */,
-				579348CE1A832CF700FD8DDC /* CIBOT_1Tests.xctest */,
 				5711CA181A83D36500C32A7C /* KIFTest.xctest */,
 				5798F62E1B138B4700750CB3 /* CIBOT_1 Tests.xctest */,
 			);
@@ -333,26 +312,6 @@
 			productReference = 579348B51A832CF700FD8DDC /* CIBOT_1.app */;
 			productType = "com.apple.product-type.application";
 		};
-		579348CD1A832CF700FD8DDC /* CIBOT_1Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 579348DB1A832CF700FD8DDC /* Build configuration list for PBXNativeTarget "CIBOT_1Tests" */;
-			buildPhases = (
-				110A7502B08EFA7F72B4AEB8 /* Check Pods Manifest.lock */,
-				579348CA1A832CF700FD8DDC /* Sources */,
-				579348CB1A832CF700FD8DDC /* Frameworks */,
-				579348CC1A832CF700FD8DDC /* Resources */,
-				2700B552B2BA8422ED326E4E /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				579348D01A832CF700FD8DDC /* PBXTargetDependency */,
-			);
-			name = CIBOT_1Tests;
-			productName = CIBOT_1Tests;
-			productReference = 579348CE1A832CF700FD8DDC /* CIBOT_1Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		5798F62D1B138B4700750CB3 /* CIBOT_1 Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5798F6361B138B4700750CB3 /* Build configuration list for PBXNativeTarget "CIBOT_1 Tests" */;
@@ -389,10 +348,6 @@
 					579348B41A832CF700FD8DDC = {
 						CreatedOnToolsVersion = 6.0.1;
 					};
-					579348CD1A832CF700FD8DDC = {
-						CreatedOnToolsVersion = 6.0.1;
-						TestTargetID = 579348B41A832CF700FD8DDC;
-					};
 					5798F62D1B138B4700750CB3 = {
 						CreatedOnToolsVersion = 6.3;
 						TestTargetID = 579348B41A832CF700FD8DDC;
@@ -413,7 +368,6 @@
 			projectRoot = "";
 			targets = (
 				579348B41A832CF700FD8DDC /* CIBOT_1 */,
-				579348CD1A832CF700FD8DDC /* CIBOT_1Tests */,
 				5711CA171A83D36500C32A7C /* KIFTest */,
 				5798F62D1B138B4700750CB3 /* CIBOT_1 Tests */,
 			);
@@ -446,13 +400,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		579348CC1A832CF700FD8DDC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5798F62C1B138B4700750CB3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -463,21 +410,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		110A7502B08EFA7F72B4AEB8 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		249EFD34B9FB2E74883ADD13 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -491,21 +423,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CIBOT_1 Tests/Pods-CIBOT_1 Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2700B552B2BA8422ED326E4E /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CIBOT_1Tests/Pods-CIBOT_1Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F898605DC822BAD783E39AD2 /* Check Pods Manifest.lock */ = {
@@ -549,14 +466,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		579348CA1A832CF700FD8DDC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				579348D51A832CF700FD8DDC /* CIBOT_1Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5798F62A1B138B4700750CB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -575,11 +484,6 @@
 			isa = PBXTargetDependency;
 			target = 579348B41A832CF700FD8DDC /* CIBOT_1 */;
 			targetProxy = 5711CA1E1A83D36500C32A7C /* PBXContainerItemProxy */;
-		};
-		579348D01A832CF700FD8DDC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 579348B41A832CF700FD8DDC /* CIBOT_1 */;
-			targetProxy = 579348CF1A832CF700FD8DDC /* PBXContainerItemProxy */;
 		};
 		5798F6351B138B4700750CB3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -767,43 +671,6 @@
 			};
 			name = Release;
 		};
-		579348DC1A832CF700FD8DDC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A16C7E735446281138CC381 /* Pods-CIBOT_1Tests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CIBOT_1Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CIBOT_1.app/CIBOT_1";
-			};
-			name = Debug;
-		};
-		579348DD1A832CF700FD8DDC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84472974A21A951F3EA8C1B7 /* Pods-CIBOT_1Tests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CIBOT_1Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CIBOT_1.app/CIBOT_1";
-			};
-			name = Release;
-		};
 		5798F6371B138B4700750CB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1E2D769A62F3B8E0429FE554 /* Pods-CIBOT_1 Tests.debug.xcconfig */;
@@ -877,15 +744,6 @@
 			buildConfigurations = (
 				579348D91A832CF700FD8DDC /* Debug */,
 				579348DA1A832CF700FD8DDC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		579348DB1A832CF700FD8DDC /* Build configuration list for PBXNativeTarget "CIBOT_1Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				579348DC1A832CF700FD8DDC /* Debug */,
-				579348DD1A832CF700FD8DDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

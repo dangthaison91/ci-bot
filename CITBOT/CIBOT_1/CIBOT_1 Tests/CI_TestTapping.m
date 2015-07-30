@@ -15,40 +15,40 @@
 - (void)afterEach {
     [tester tapViewWithAccessibilityLabel:@"Back"];
 }
-//- (void)testReverse {
-//
-//    [tester enterText:@"123456" intoViewWithAccessibilityLabel:@"inputText"];
-//
-//    UITextField *text = (UITextField*)[tester waitForViewWithAccessibilityLabel:@"inputText"];
-//    NSString *oldString = text.text;
-//    // reverse text
-//    [tester waitForTimeInterval:1.0];
-//    [tester tapViewWithAccessibilityLabel:@"btnReverse"];
-//
-//    // chheck if text is reversed
-//    text = (UITextField*)[tester waitForViewWithAccessibilityLabel:@"inputText"];
-//    XCTAssertFalse(![oldString isEqualToString:@"123"], @"Failed");
-//}
-//- (void)testClear {
-//    [tester enterText:@"123456" intoViewWithAccessibilityLabel:@"inputText"];
-//    [tester waitForTimeInterval:1.0];
-//    [tester tapViewWithAccessibilityLabel:@"btnClear"];
-//
-//    UITextField *text = (UITextField*)[tester waitForViewWithAccessibilityLabel:@"inputText"];
-//    XCTAssertTrue([text.text isEqualToString:@""], @"FAIL");
-//
-//}
-- (void)testAlert {
-    [tester tapViewWithAccessibilityLabel:@"btnShowAlert"];
-    [tester waitForViewWithAccessibilityLabel:@"Successful"];
-    [tester tapViewWithAccessibilityLabel:@"YES"];
+- (void)testReverse {
 
-    [tester waitForAbsenceOfViewWithAccessibilityLabel:@"Successful"];
-    [tester waitForTimeInterval:1];
-    [tester waitForViewWithAccessibilityLabel:@"Second Alert"];
-    [tester waitForTimeInterval:1];
-    [tester tapViewWithAccessibilityLabel:@"YES"];
+    [tester enterText:@"abc123" intoViewWithAccessibilityLabel:@"inputText"];
+
+    UITextField *text = (UITextField*)[tester waitForViewWithAccessibilityLabel:@"inputText"];
+    NSString *oldString = text.text;
+    // reverse text
+    [tester waitForTimeInterval:1.0];
+    [tester tapViewWithAccessibilityLabel:@"btnReverse"];
+
+    // chheck if text is reversed
+    text = (UITextField*)[tester waitForViewWithAccessibilityLabel:@"inputText"];
+    XCTAssertTrue(![oldString isEqualToString:@"321cba"], @"Success");
 }
+- (void)testClear {
+    [tester enterText:@"123456" intoViewWithAccessibilityLabel:@"inputText"];
+    [tester waitForTimeInterval:1.0];
+    [tester tapViewWithAccessibilityLabel:@"btnClear"];
+
+    UITextField *text = (UITextField*)[tester waitForViewWithAccessibilityLabel:@"inputText"];
+    XCTAssertTrue(![text.text isEqualToString:@"123"], @"FAIL");
+
+}
+//- (void)testAlert {
+//    [tester tapViewWithAccessibilityLabel:@"btnShowAlert"];
+//    [tester waitForViewWithAccessibilityLabel:@"Successful"];
+//    [tester tapViewWithAccessibilityLabel:@"YES"];
+//
+//    [tester waitForAbsenceOfViewWithAccessibilityLabel:@"Successful"];
+//    [tester waitForTimeInterval:1];
+//    [tester waitForViewWithAccessibilityLabel:@"Second Alert"];
+//    [tester waitForTimeInterval:1];
+//    [tester tapViewWithAccessibilityLabel:@"YES"];
+//}
 //// Test Slider
 - (void)testSlider {
     [tester setValue:1.5 forSliderWithAccessibilityLabel:@"imageSlider"];
